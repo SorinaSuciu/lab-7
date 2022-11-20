@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Descriere Suciu Sorina-Simina </title>
+<link rel="stylesheet" href="mystyle_ex2.css">
+<style>
+header{
+height: 40px;
+background-color:#14613b;
+}
+body{
+padding: 10px;
+margin: 0;
+font-family: Helvetica;
+}
+#NumePrenume{
+font-weight: 200;
+}
+table, td{
+border: 1px solid;
+border-collapse: separate;
+padding: 10px;
+}
+
+#Pasiuni{
+border-style: dashed;
+width: 80px;
+}
+#Pozaprofil{
+border-radius: 30px;
+padding: 20px;
+position: absolute;
+top: 80px;
+right: 200px;
+opacity: 0.9;
+
+} 
+footer{
+background-color:#468399;
+}
+</style>
+</head>
+ <body>
+  <h1 id="NumePrenume" style="color:#14613b;">Suciu Sorina-Simina </h1>
+  <img id="Pozaprofil" align="right" src="Sorina.jpg" width="280px" height="360px">
+<p>suciusorina@yahoo.com </p>
+<p>"Believe you can and you will"</p>
+
+<h2> Educatie </h2>
+<table id="tabeleducatie"
+<tbody><tr>
+<td>Grafica asistata de calculator</td>
+<td>anul 2,sem 1</td>
+<td>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/15.pdf</td>
+</tr>
+<tr>
+<td>Analiza si sinteza circuitelor</td>
+<td>anul 2,sem 2</td>
+<td>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/25.pdf</td>
+</tr>
+<tr>
+<td>Ecuatii diferentiale</td>
+<td>anul 1,sem 2</td>
+<td>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/09.pdf</td>
+</tr>
+</tbody>
+</table>
+<h2>Pasiuni</h2>
+<ul id="Pasiuni">
+<li>Cititul</li>
+<li>Calatoritul</li>
+<li>Dansul</li>
+</ul>
+<footer> Footer
+</footer>
+<button><a href="AgendaColegi.html">Back</a></button>
+</body>
+</html>
